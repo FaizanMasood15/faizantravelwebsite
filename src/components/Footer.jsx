@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
         {/* Column 1: Logo and Tagline */}
         <div className="col-span-1 md:col-span-2 text-center md:text-left">
-          <div className="text-3xl font-bold text-blue-800 mb-4">Faizan Butt 15</div>
+          <div className="text-3xl font-bold text-blue-800 mb-4">Faizan Masood</div>
           <p className="text-gray-600 text-sm">Book your trip in minutes, get full control for much longer.</p>
         </div>
 
@@ -42,14 +42,14 @@ const Footer = () => {
         </div>
 
         {/* Column 5: Social & App Links */}
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left ">
           <div className="flex justify-center md:justify-start space-x-4 mb-4">
             {/* Social Icons - use SVGs or icon library */}
             <a href="#" className="text-gray-500 hover:text-blue-600"><img src="\images\Social.png" alt="Facebook" className="w-6 h-6" /></a>
             <a href="#" className="text-gray-500 hover:text-blue-600"><img src="/images/Social (1).png" alt="Instagram" className="w-6 h-6" /></a>
             <a href="#" className="text-gray-500 hover:text-blue-600"><img src="images\Social (2).png" alt="Twitter" className="w-6 h-6" /></a>
           </div>
-          <p className="text-gray-600 text-sm mb-2">Discover our app</p>
+          <p className="text-gray-600 text-sm mb-2 p-2">Discover our app</p>
           <div className="flex justify-center md:justify-start space-x-2">
             <a href="#"><img src="/images/Google Play.png" alt="Google Play" className="h-10" /></a> {/* Placeholder */}
             <a href="#"><img src="/images/Play Store.png" alt="Apple Store" className="h-10" /></a> {/* Placeholder */}
@@ -58,7 +58,7 @@ const Footer = () => {
       </div>
 
       <div className="text-center text-gray-500 text-sm mt-12">
-        All rights reserved@Faizanbutt15.co
+        All rights reserved@FaizanMasood.co
       </div>
     </footer>
   );

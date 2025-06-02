@@ -10,8 +10,8 @@ const Newsletter = () => {
 
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 leading-tight">
-          Subscribe to get information, latest news and other
-          interesting offers about Jadoo
+          Subscribe to get information, latest news and other<br/>
+          interesting offers about Faizan Masood
         </h2>
         <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
           <input

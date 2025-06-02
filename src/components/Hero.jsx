@@ -3,7 +3,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="flex flex-col md:flex-row items-center justify-center py-12 md:py-24 px-4 bg-gray-50 overflow-hidden relative">
+    <section className="flex flex-col md:flex-row items-center justify-center px-6 py-24 md:py-24 md:px-16 bg-gray-50 overflow-hidden relative">
       {/* Background Gradient/Shape (Optional, for visual flair) */}
       <div className="absolute top-0 right-0 w-1/3 h-full bg-purple-100 opacity-50 rounded-bl-full hidden md:block"></div>
 

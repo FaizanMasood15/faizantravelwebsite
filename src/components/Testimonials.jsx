@@ -36,7 +36,7 @@ const Testimonials = () => {
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-sm uppercase text-gray-500 font-semibold mb-2">TESTIMONIALS</h2>
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-8">
-            What People Say About Us.
+            What People Say <br/>About Us.
           </h1>
           <div className="flex justify-center md:justify-start space-x-2 mt-4">
             {testimonialsData.map((_, index) => (
