@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute top-0 right-0 w-1/3 h-full bg-purple-100 opacity-50 rounded-bl-full hidden md:block"></div>
 
       {/* Text Content */}
-      <div className="md:w-1/2 text-center md:text-left mb-8 md:mb-0">
+      <div className="md:w-1/2 md:text-left mb-8 md:mb-0">
         <h2 className="text-lg text-red-500 font-semibold mb-2">BEST DESTINATIONS AROUND THE WORLD</h2>
         <h1 className="text-5xl md:text-7xl font-bold leading-tight text-gray-900 mb-6">
           Travel, enjoy <br /> and live a new <br /> and full life

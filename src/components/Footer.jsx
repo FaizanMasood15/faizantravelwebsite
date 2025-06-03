@@ -3,10 +3,18 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-white py-12 px-4 md:px-16 border-t border-gray-200">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8">
+    <footer className="bg-white py-16 px-4 md:px-16 border-t border-gray-200">
+      <div className="
+        max-w-7xl mx-auto
+        grid grid-cols-1    // Single column on mobile
+        md:grid-cols-5      // 5 columns on desktop
+        gap-8               // Gap between grid items on all sizes
+        // Add explicit vertical spacing for mobile when items stack
+        // You might need to adjust 'space-y-12' for your desired look
+        space-y-12 md:space-y-0
+      ">
         {/* Column 1: Logo and Tagline */}
-        <div className="col-span-1 md:col-span-2 text-center md:text-left">
+        <div className="col-span- md:col-span-2 text-center md:text-left">
           <div className="text-3xl font-bold text-blue-800 mb-4">Faizan Masood</div>
           <p className="text-gray-600 text-sm">Book your trip in minutes, get full control for much longer.</p>
         </div>
@@ -42,12 +50,12 @@ const Footer = () => {
         </div>
 
         {/* Column 5: Social & App Links */}
-        <div className="text-center md:text-left ">
+        <div className="text-center md:text-left">
           <div className="flex justify-center md:justify-start space-x-4 mb-4">
             {/* Social Icons - use SVGs or icon library */}
-            <a href="#" className="text-gray-500 hover:text-blue-600"><img src="\images\Social.png" alt="Facebook" className="w-6 h-6" /></a>
+            <a href="#" className="text-gray-500 hover:text-blue-600"><img src="/images/Social.png" alt="Facebook" className="w-6 h-6" /></a>
             <a href="#" className="text-gray-500 hover:text-blue-600"><img src="/images/Social (1).png" alt="Instagram" className="w-6 h-6" /></a>
-            <a href="#" className="text-gray-500 hover:text-blue-600"><img src="images\Social (2).png" alt="Twitter" className="w-6 h-6" /></a>
+            <a href="#" className="text-gray-500 hover:text-blue-600"><img src="/images/Social (2).png" alt="Twitter" className="w-6 h-6" /></a>
           </div>
           <p className="text-gray-600 text-sm mb-2 p-2">Discover our app</p>
           <div className="flex justify-center md:justify-start space-x-2">

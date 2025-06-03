@@ -3,7 +3,7 @@ import React from 'react';
 
 const BookingSteps = () => {
   return (
-    <section className="py-16 px-4 md:px-16 bg-white">
+    <section className="py-16 px-6 md:px-16 bg-white">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         {/* Left side - Steps */}
         <div className="md:w-1/2 text-center md:text-left">

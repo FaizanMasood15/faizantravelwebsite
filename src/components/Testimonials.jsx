@@ -31,7 +31,7 @@ const Testimonials = () => {
   const currentTestimonial = testimonialsData[currentIndex];
 
   return (
-    <section className="py-16 px-4 md:px-16 bg-gray-50">
+    <section className="py-16 px-14 md:px-16 bg-gray-50">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-sm uppercase text-gray-500 font-semibold mb-2">TESTIMONIALS</h2>
@@ -58,10 +58,10 @@ const Testimonials = () => {
           </div>
 
           {/* Navigation arrows for carousel (optional) */}
-          <button onClick={goToPrevious} className="absolute left-0 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10 hidden md:block">
+          <button onClick={goToPrevious} className="absolute left-0 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10   ">
             &lt;
           </button>
-          <button onClick={goToNext} className="absolute right-0 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10 hidden md:block">
+          <button onClick={goToNext} className="absolute right-0 top-1/2 -translate-y-1/2 bg-white p-2 rounded-full shadow-md z-10   ">
             &gt;
           </button>
         </div>

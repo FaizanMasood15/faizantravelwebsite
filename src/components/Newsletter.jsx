@@ -3,14 +3,14 @@ import React from 'react';
 
 const Newsletter = () => {
   return (
-    <section className="py-16 px-4 md:px-16 bg-purple-100 bg-opacity-30 rounded-t-3xl md:rounded-t-[8rem] relative overflow-hidden">
+    <section className="py-16 px-8 md:px-16 bg-purple-100 bg-opacity-30 rounded-t-3xl md:rounded-t-[8rem] relative overflow-hidden">
       {/* Background decorative elements (optional) */}
       <div className="absolute -bottom-8 -right-8 w-40 h-40 bg-purple-300 opacity-20 rounded-full"></div>
       <div className="absolute -top-12 -left-12 w-60 h-60 bg-yellow-200 opacity-20 rounded-full"></div>
 
-      <div className="max-w-4xl mx-auto text-center relative z-10">
+      <div className="max-w-4xl mx-auto text-aligned relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-8 leading-tight">
-          Subscribe to get information, latest news and other<br/>
+          Subscribe to get information, latest news and other
           interesting offers about Faizan Masood
         </h2>
         <div className="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-4">
