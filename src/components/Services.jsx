@@ -32,7 +32,7 @@ const Services = () => {
       <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
         We Offer Best Services
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+      <div className="grid grid-cols-1 ] lg:grid-cols-4 gap-10 max-w-7xl mx-auto">
         {servicesData.map((service, index) => (
           <ServiceCard
             key={index}

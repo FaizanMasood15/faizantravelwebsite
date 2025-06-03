@@ -3,8 +3,37 @@ import React from 'react';
 
 const DestinationCard = ({ image, name, price, days }) => {
   return (
-    <div className="rounded-xl shadow-lg overflow-hidden bg-white hover:shadow-xl transition-shadow duration-300">
-      <img src={image} alt={name} className="w-full h-48 object-cover" />
+    <div className="
+      rounded-xl           // Apply rounded corners to the whole card
+      shadow-lg            // Add a shadow to the card
+      overflow-hidden      // CRUCIAL: Hides anything that goes outside the card's boundaries
+      bg-white             // Card background color
+      hover:shadow-xl      // Larger shadow on hover for effect
+      transition-shadow duration-300 // Smooth shadow transition
+    ">
+      {/* THIS IS THE CONTAINER FOR THE IMAGE. 
+        It defines the fixed dimensions (width and height) that the image will fill.
+      */}
+      <div className="
+        w-full               // This div must take the full width of its parent card.
+        h-64                // <-- THIS IS THE LINE TO ADJUST for vertical size
+        overflow-hidden     // Essential to hide any part of the image that spills out
+        relative            // Good practice if you ever need absolute positioning inside (not strictly needed for this current image setup, but harmless)
+      ">
+        <img
+          src={image}
+          alt={name}
+          className="
+            w-[450px]          // Make the image take 100% width of its parent container (the div directly above)
+            h-full          // Make the image take 100% height of its parent container (the div directly above)
+            object-cover    // CRUCIAL: This makes the image fill the area, cropping if needed
+            object-center   // NEW: This defaults to centering the image's content.
+                            //      If the top is still cut, you might try object-top or object-bottom
+          "
+        />
+      </div>
+
+      {/* This div contains the text content of the card */}
       <div className="p-4">
         <div className="flex justify-between items-center mb-2">
           <h3 className="text-lg font-semibold text-gray-800">{name}</h3>

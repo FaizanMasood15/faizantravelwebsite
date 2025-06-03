@@ -10,7 +10,7 @@ const destinationsData = [
     days: '10'
   },
   {
-    image: '/images/Rectangle 14.jpg', // Placeholder
+    image: '/images/Rectangle 15 (2).png', // Placeholder
     name: 'London, UK',
     price: '$4.2k',
     days: '12'
@@ -26,7 +26,7 @@ const destinationsData = [
 const TopDestinations = () => {
   return (
     <section className="py-16 px-4 md:px-16 bg-gray-50">
-      <h2 className="text-sm uppercase text-center text-gray-500 font-semibold mb-2">Top Selling</h2>
+      <h2 className="text-sm uppercase text-center text-gray-500  font-semibold mb-2">Top Selling</h2>
       <h2 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12">
         Top Destinations
       </h2>

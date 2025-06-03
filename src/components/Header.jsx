@@ -11,16 +11,16 @@ const Header = () => {
       flex                  // Use flexbox for horizontal alignment of items
       justify-between       // Space out items: logo on left, menu/buttons on right
       items-center          // Vertically align items in the center
-      p-4                   // Padding all around the header
-      md:px-16              // More horizontal padding on medium screens and up
+      p-5                   // Padding all around the header
+      md:px-10              // More horizontal padding on medium screens and up
       bg-white              // White background
       shadow-md             // A subtle shadow at the bottom
       relative              // Needed for positioning the mobile overlay menu
       z-10                  // Ensures the header stays on top of other content
     ">
       {/* -------------------- 1. Logo -------------------- */}
-      <div className="text-2xl font-bold text-blue-800">
-        Faizan Butt 15
+      <div className="text-2xl md:px-4 font-bold text-blue-800">
+        Faizan Masood
       </div>
 
       {/* -------------------- 2. Hamburger Menu Button (Visible on Mobile Only) -------------------- */}
@@ -68,7 +68,7 @@ const Header = () => {
           items-center            // Center items horizontally in the column on mobile
           space-y-4               // Vertical spacing between items on mobile
           md:space-y-0            // No vertical spacing on medium screens and larger
-          md:space-x-8            // Horizontal spacing between items on medium screens and larger
+          md:space-x-10            // Horizontal spacing between items on medium screens and larger
           text-gray-700           // Default text color for links
         ">
           <li><a href="#" className="hover:text-blue-600 transition-colors">Destinations</a></li>
@@ -91,7 +91,7 @@ const Header = () => {
           <li>
             {/* Language Selector */}
             <select className="
-              border-none           // No border
+              border border-gray-400           // No border
               focus:outline-none    // Remove focus outline
               bg-white              // Ensure background is white (for consistency)
               md:bg-transparent     // Transparent on desktop
